@@ -1,9 +1,15 @@
-#include <iostream>
-using namespace std;
+#include "SymbolTable.h"
 
 int main()
 {
-	cout << "Hello World!";
+	SymbolTable table;
+
+	table.insert("while", "keyword");
+	table.insert("if", "keyword");
+	table.insert("else", "keyword");
+	table.insert("for", "keyword");
+
+	table.print();
 
 	return 0;
 }

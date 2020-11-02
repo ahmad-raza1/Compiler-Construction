@@ -10,8 +10,7 @@ class Node
 
 public:
 	Node();
-	Node::Node(string, string);
-
+	Node(string, string);
 	~Node();
 
 	void print() const;
