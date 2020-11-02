@@ -39,4 +39,6 @@ void readKeywordsinSymbolTable(string filename, SymbolTable &table)
 		removeSpaces(keyword);
 		table.insert(keyword, "keyword");
 	}
+
+	fin.close();
 }
