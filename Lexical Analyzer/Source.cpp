@@ -31,7 +31,6 @@ void removeSpaces(string &str)
 void readKeywordsinSymbolTable(string filename, SymbolTable &table)
 {
 	ifstream fin(filename);
-	
 	string keyword;
 
 	while (! fin.eof())
