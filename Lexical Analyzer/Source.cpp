@@ -91,11 +91,8 @@ int** read2DArrayFromFile(string filename, int &row, int &col)
 
 	for (int i = 0; i < row; i++)
 	{
-		for (int j = 0; j < col; j++){
+		for (int j = 0; j < col; j++)
 			fin >> dptr[i][j];
-			cout << dptr[i][j] << "\t";
-		}
-		cout << endl;
 	}
 
 	fin.close();
