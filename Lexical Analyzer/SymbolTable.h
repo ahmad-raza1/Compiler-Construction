@@ -1,7 +1,7 @@
 #pragma once
 #include "Node.h"
 
-#define	MAX	500
+#define	MAX	100
 
 class SymbolTable
 {
